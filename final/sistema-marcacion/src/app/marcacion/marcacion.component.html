@@ -1,0 +1,7 @@
+<h1>Marcación de Empleados</h1>
+<select [(ngModel)]="tipo" id="tipo">
+  <option value="" disabled selected>Selecciona un tipo de marcación</option>
+  <option value="entrada">Entrada</option>
+  <option value="salida">Salida</option>
+</select>
+<button (click)="registrarMarcacion()">Registrar Marcación</button>
